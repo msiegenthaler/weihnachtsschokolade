@@ -1,7 +1,7 @@
 model_d = 3;
 model_s = 80;
 
-flake_s = 80;
+flake_s = 50;
 flake_d = 9;
 
 height = 18;
@@ -18,7 +18,7 @@ module positive() {
 }
 
 module box_base() {
-    x = flake_s+18;
+    x = flake_s+15;
     f = 0.33333;
     translate([-x/2,-x/2,0])
         polygon([
